@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 00e6e14e415c7794dbc9ffa40ab465e8, type: 3}
-  m_Color: {r: 0.29376745, g: 1, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -93,8 +93,6 @@ GameObject:
   - component: {fileID: 8462718063349820233}
   - component: {fileID: 8462718063349820232}
   - component: {fileID: 8462718063349820235}
-  - component: {fileID: 7805190810419537378}
-  - component: {fileID: 8940346212076889179}
   - component: {fileID: 6814779328990654100}
   m_Layer: 0
   m_Name: Ball
@@ -178,34 +176,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 150
---- !u!114 &7805190810419537378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8462718063349820234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c536840814be7414cb82721ca2f56a98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bounceParticles: {fileID: 4921212709161020460, guid: ddb927cc85c1db345a9c7574683287c0,
-    type: 3}
---- !u!114 &8940346212076889179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8462718063349820234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 081fc06bbf621074dabc9ed0d68879be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioPlayer: {fileID: 8431587178591647911, guid: 634c6fa8d5544d8499e6e01f394ba693,
-    type: 3}
 --- !u!96 &6814779328990654100
 TrailRenderer:
   serializedVersion: 2
@@ -214,7 +184,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8462718063349820234}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
