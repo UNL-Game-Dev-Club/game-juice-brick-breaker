@@ -19,7 +19,7 @@ public class Eye : MonoBehaviour
 	private void Update()
 	{
 		transform.position = 
-			new Vector3(_racket.transform.position.x + _xOffset, _racket.transform.position.y, 0);
+			new Vector3(_racket.transform.position.x + _xOffset, _racket.transform.position.y, transform.position.z);
 		
 		if (_ball == null)
 		{
